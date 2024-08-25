@@ -1,0 +1,144 @@
+.main-subsection {
+  display: flex;
+  order: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.title {
+  font-size: 250%;
+}
+.main-subsection-card {
+  margin-right: 70px;
+}
+.main-img-container {
+  max-width: 700px;
+}
+.main-img-container {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.subtitulo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.cajagrande {
+  width: 30%;
+}
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cajas {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.3);
+}
+
+.sale {
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  width: 50px;
+  padding: 2px;
+  text-align: center;
+}
+
+.dinero {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+  width: 30px;
+  text-align: center;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.dinerosolo {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+  width: 30px;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+.modelo {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+.navbar-brand:hover {
+  text-decoration: underline pink;
+}
+li:hover {
+  text-decoration: underline pink;
+}
+
+.imagen2 {
+  width: 100%;
+}
+.zapas {
+  position: relative;
+}
+span {
+  position: absolute;
+}
+.contender {
+  background-image: url("../img/background2.webp");
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+}
+.cajas:hover {
+  box-shadow: 1px 1px 20px 1px rgb(239, 199, 206),
+    1px 1px 20px 1px rgb(224, 143, 220);
+  border-radius: 20px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.textoinferior2 {
+  margin-right: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.textoinferior1 {
+  margin-left: 500px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.titulo {
+  margin-top: 30px;
+  margin-left: 303px;
+}
+
+.textoinferior {
+  font-size: 14px;
+}
+.textoinferior:hover {
+  text-decoration: underline pink;
+}
+.textoinferior:active {
+  color: pink;
+}
